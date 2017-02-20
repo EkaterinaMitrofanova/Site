@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    /*background: #dbdbdb;*/
+    background: darkblue url("/images/page.png") repeat;
+    /*background: url("http://www.quadrosol.ru/sites/default/files/89406349.jpg") repeat;*/
+}
+#wrapper {
+
+}
+#content {
+    width: 350px;
+    height: 250px;
+    margin: 50px auto auto auto;
+    border: 2px ridge #d77206;
+    background-color: #ffffff;
+    border-radius:5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    font-family: "Centro Sans pro", sans-serif;
+}
+#form{
+    padding: 10px 30px;
+}
+hr{
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1em;;
+}
+.input input{
+    height: 30px;
+    width: 95%;
+    margin: 5px auto;
+    padding-left: 10px;
+
+    border: 1px solid #d77206;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #d77206;
+    font-size: 1.2em;
+    color: #743a05;
+}
+.input input:focus{
+    outline: none;
+    border: 2px solid #743a05;
+    border-radius:5px;
+}
+input[type="submit"] {
+    width: 60px;
+    height: 30px;
+    margin-left: 30px;
+
+    color: white;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    /*font-family: "Comic Sans MS", cursive;*/
+    /*font-size: 1em;*/
+    /*border: 1px solid #834fa3;*/
+    /*border-radius: 6px;*/
+    /*background: #e8b2ff;*/
+}
+input[type="submit"]:hover{
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+    /*outline: none;*/
+    /*border: 2px solid #b280bc;*/
+    /*border-radius: 6px;*/
+}
+input[type="submit"]:active{
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+.bottom {
+    margin-top: 10px;
+}
+a {
+    margin-left: 50px;
+    color: #7876ff;
+    font-size: 1.2em;
+}
+a:hover {
+    border-bottom: 1px solid #8d9ada;
+    border-top: 1px solid #FFD201;
+}
+.error{
+    color: red;
+}
